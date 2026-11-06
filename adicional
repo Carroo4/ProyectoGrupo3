@@ -1,0 +1,8 @@
+<h3>Información adicional</h3><hr><br>
+			<input type="checkbox" value="practicas">Estoy interesado/a en realizar prácticas en empresas</input><br><br>
+			<input type="checkbox" value="politica" required >Acepto la política de privacidad y protección de datos</input><br><br>
+			<button class="sub" type="submit">Enviar inscripción</button>
+			<button class="res" type="reset">Borrar formulario</button>
+			</form>
+	</body>
+</html>
