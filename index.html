@@ -10,7 +10,23 @@
     </encabezado>
     
     <cuerpo>
-        <!-- Grupo 2: Rellenar esta sección -->
+        <h2>Datos académicos</h2>
+		<hr><br>
+		<label for="ciclo">Selecciona el ciclo formativo</label><br>
+		<select name="ciclo" id="ciclo" required>
+			<option value="" disabled selected>-- Selecciona un curso --</option>
+			<option value="SMR">Sistemas microinformáticos y redes</option>
+			<option value="ASIR">Administración de sistemas informáticos en red</option>
+			<option value="DAM">Desarrollo de aplicaciones multiplataforma</option>
+			<option value="DAW">Desarrollo de aplicaciones web</option>
+			<option value="MP">Marketing y publicidad</option>
+			<option value="AF">Administración y finanzas</option>
+		</select><br><br>
+		
+		<label for="modalidad">¿Qué modalidad prefieres?</label><br><br>
+		<input type="radio" id="modalidad" name="modalidad" value="presencial" required >Presencial</input>
+		<input type="radio" id="modalidad" name="modalidad" value="distancia" required >A distancia</input>
+		<input type="radio" id="modalidad" name="modalidad" value="semi" required >Semipresencial</input><br><br>
     </cuerpo>
     
     <pie>
