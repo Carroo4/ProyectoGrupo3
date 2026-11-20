@@ -6,7 +6,15 @@
 </head>
 <body>
     <encabezado>
-        <!-- Grupo 1: Rellenar esta sección -->
+        <h2>Formulario de inscripción en cursos de FP</h2>
+			<form action="php/datos.php" method="post" id="formu" name="formu">
+			<h3>Datos personales</h3><hr><br>
+			<label for="nombre">Nombre y apellidos</label><br>
+			<input type="text" id="nombre" name="nombre" required ><br><br>
+			<label for="fecha">Fecha de nacimiento</label><br>
+			<input type="date" id="fecha" name="fecha" required min="1926-01-01" max="2008-12-31" ><br><br>
+			<label for="edad">Edad</label><br>
+			<input type="number" id="edad" name="edad" min="17" max="100" required ><br><br>
     </encabezado>
     
     <cuerpo>
